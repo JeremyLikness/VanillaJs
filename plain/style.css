@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif, arial, helvetica;
+  }
+  
+  button {
+    cursor: pointer;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 50%;
+  }
+  
+  div.post {
+    border-top: solid black 2px;
+  }
+  
+  h1 {
+    width: 95%;
+    font-size: 1.5em;
+    background: lightgray;
+    padding: 0.2em;
+    text-align: justify;
+  }
+  
+  p {
+    margin-left: 2em;
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-left: -5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltiptext:hover {
+    visibility: visible;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }  
